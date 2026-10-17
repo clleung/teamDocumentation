@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('Part1.step',
+    '2025-12-23T15:53:20',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2026',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #11 ) ;
+#2 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #10, #4 ) ;
+#3 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #7 ) ;
+#4 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #7, 'design' ) ;
+#5 = PRODUCT ( 'Part1', 'Part1', '', ( #6 ) ) ;
+#6 = PRODUCT_CONTEXT ( 'NONE', #11, 'mechanical' ) ;
+#7 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#8 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #5 ) ) ;
+#9 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #2 ) ;
+#10 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #5, .NOT_KNOWN. ) ;
+#11 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+ENDSEC;
+END-ISO-10303-21;
